@@ -1,0 +1,14 @@
+---
+title: "research_shell_ShinaMin"
+author: "Shina Min"
+date: "2025-01-29"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library()
+```
+
+
