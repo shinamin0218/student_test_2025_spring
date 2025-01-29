@@ -3,3 +3,48 @@ research_shell_ShinaMin
 Shina Min
 2025-01-29
 
+### Investigating the Gene-Cohort Interaction Between FTO and BMI
+
+Understanding the genetic and environmental determinants of **obesity**
+is crucial for effective public health interventions. This research
+explores **the FTO gene**, a key genetic determinant of body mass index
+(BMI), to assess whether its influence differs across birth cohorts. It
+examines whether individuals born after World War II (WWII), who were
+exposed to a higher-calorie diet, show a stronger genetic **effect of
+FTO on BMI** compared to those born before WWII. To manage large-scale
+multiomic datasets, this study employs **Linux-based tools** and
+high-performance **cluster computing** for data preprocessing and
+analysis.
+
+### 1. Study Design and Data Collection
+
+This study leverages **multiomic datasets** from 5,000 individuals
+across 500 families in the United States and Denmark. These datasets
+include **genomic, epigenomic, transcriptomic, proteomic, metabolomic,
+and lipidomic profiles.** Families have been followed for over a decade,
+allowing the integration of **whole-genome sequencing and lipid
+profiling** to examine how FTO variants influence lipid metabolism and
+BMI. Given the dataset’s complexity, cluster-based parallel computing is
+used for preprocessing and efficient data management.
+
+| Cohort_Group             | Key_Characteristics                                |
+|:-------------------------|:---------------------------------------------------|
+| Born Before WWII (≤1945) | Limited food availability, lower calorie intake    |
+| Born After WWII (\>1945) | Industrialized food systems, higher calorie intake |
+
+Comparison of Pre-WWII and Post-WWII Cohorts
+
+### 2. Computational Analysis
+
+Principal component analysis (PCA) is applied to lipidomic data to
+identify biomarkers associated with obesity. Longitudinal statistical
+modeling assesses whether FTO has a stronger effect on BMI in post-WWII
+cohorts. Linux shell scripting and cluster-based processing ensure
+computational efficiency for handling large datasets.
+
+### Conclusion
+
+This study clarifies the **gene-environment interaction** between **FTO
+and BMI**, providing insights into obesity risk. By using
+high-performance computing, it supports **precision medicine
+strategies** for targeted interventions.
