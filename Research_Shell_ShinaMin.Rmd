@@ -2,7 +2,7 @@
 title: "research_shell_ShinaMin"
 author: "Shina Min"
 date: "2025-01-29"
-output: html_document
+output: github_document
 ---
 
 ```{r setup, include=FALSE}
